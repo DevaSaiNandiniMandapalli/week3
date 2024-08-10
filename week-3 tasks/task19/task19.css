@@ -1,0 +1,13 @@
+
+p::first-line {
+    font-size: 1.2em;       
+    font-weight: bold;      
+    color: #2c3e50;         
+}
+
+
+p::first-letter {
+    font-size: 2em;         
+    color: #e74c3c;         
+    background-color: #f0f0f0; 
+}

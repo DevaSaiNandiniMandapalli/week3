@@ -1,0 +1,30 @@
+.decorative-text {
+    font-size: 1.5em;
+    color: #333;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+}
+
+.decorative-text::before {
+    content: '⭐';
+    font-size: 1.5em;
+    color: #f39c12;
+    position: absolute;
+    left: -2em;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.decorative-text::after {
+    content: '🌟';
+    font-size: 1.5em;
+    color: #f39c12;
+    position: absolute;
+    right: -2em;
+    top: 50%;
+    transform: translateY(-50%);
+}

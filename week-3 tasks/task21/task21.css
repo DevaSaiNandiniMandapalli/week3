@@ -1,0 +1,15 @@
+.transition-button {
+    font-size: 1em;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s, transform 0.5s;
+}
+
+.transition-button:hover {
+    background-color: #2ecc71;
+    transform: scale(1.1);
+}

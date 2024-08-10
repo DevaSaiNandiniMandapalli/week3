@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.image-container {
+    max-width: 800px; 
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.responsive-image {
+    max-width: 100%;
+    width: 100%;
+    height: auto; 
+    display: block;
+    margin: 0 auto;
+}
+@media (max-width: 600px) {
+    .image-container {
+        padding: 10px;
+    }
+}

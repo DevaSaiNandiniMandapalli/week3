@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+}
+
+.moving-div {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    position: absolute;
+    animation: moveRight 5s linear infinite;
+}
+
+@keyframes moveRight {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 100%;
+    }
+}
